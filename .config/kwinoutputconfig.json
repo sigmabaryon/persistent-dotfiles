@@ -1,0 +1,77 @@
+[
+    {
+        "data": [
+            {
+                "autoRotation": "InTabletMode",
+                "connectorName": "eDP-1",
+                "edidHash": "706c376ba94a84b011e46d821a4325a7",
+                "edidIdentifier": "LGD 1707 0 0 2020 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 1440,
+                    "refreshRate": 60017,
+                    "width": 2560
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1.5,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            },
+            {
+                "autoRotation": "InTabletMode",
+                "connectorName": "HDMI-A-1",
+                "edidHash": "4f4aaf923db51f4e868f3a24bd85fe4b",
+                "edidIdentifier": "BNQ 31057 21573 47 2020 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 1080,
+                    "refreshRate": 60000,
+                    "width": 1920
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            }
+        ],
+        "name": "outputs"
+    },
+    {
+        "data": [
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 1920,
+                            "y": 60
+                        },
+                        "priority": 1
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            }
+        ],
+        "name": "setups"
+    }
+]
